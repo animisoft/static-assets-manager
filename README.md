@@ -18,11 +18,11 @@ This is an overview of the features, see below for details on how to use them.
 
 ## How to use it
 
-####General Concept
+#### General Concept
 
 Simply, I thought of this package to be the content of the *assets* folder of my projects.
 
-####Setup:
+#### Setup:
 
 ```
 npm install
@@ -35,7 +35,7 @@ The entry point to manage all the code that will be generated is configured as:
 src/index.js
 ```
 
-####CSS (really, we will use SCSS)
+#### CSS (really, we will use SCSS)
 
 ```
 src/scss/
@@ -51,7 +51,7 @@ import './scss/main.scss';
 ```
 Webpack will generate the css files and will minimize them.
 
-####JS
+#### JS
 
 In the entry point file (*index.js*), you can insert the javascript code as you would in any javascript file.  
 Just be aware to enter the code below any "*import*" or "*require*" statement.  
@@ -61,7 +61,7 @@ The current configuration is made in such a way that after compiling your javasc
 
 Webpack will handle all the needed compilations and will create the necessary js files.
 
-####Sprites
+#### Sprites
 
 
 Sprites are a great Best Practice and you should use it.
@@ -95,7 +95,7 @@ import './scss/sprites.scss';
 
 __Currently only *.png* files are supported.__
 
-####Icon Fonts
+#### Icon Fonts
 
 Using icon fonts is another Best Practice that you should use if possible.
 It's about converting SVG to Fonts so you can take advantage of some advantages like the ability to change color and size.
